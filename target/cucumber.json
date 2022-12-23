@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-23T01:20:01.136Z",
+        "line": 4,
+        "name": "scenario",
+        "description": "",
+        "id": "dnm;scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Dnm11",
+            "match": {
+              "location": "com.Mobile_Test.StepDefinition.dnm.dnm11()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "dnm",
+    "description": "",
+    "id": "dnm",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resource/mobileFirst.feature",
+    "tags": []
+  }
+]
