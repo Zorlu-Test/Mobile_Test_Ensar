@@ -3,25 +3,80 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-12-23T01:20:01.136Z",
-        "line": 4,
-        "name": "scenario",
+        "start_timestamp": "2022-12-23T12:53:32.632Z",
+        "line": 6,
+        "name": "Successful login",
         "description": "",
-        "id": "dnm;scenario",
+        "id": "login-feature;successful-login",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1995800,
+              "duration": 2992200,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Dnm11",
+            "line": 7,
+            "name": "given dnm",
             "match": {
-              "location": "com.Mobile_Test.StepDefinition.dnm.dnm11()"
+              "location": "com.Mobile_Test.StepDefinition.LoginStepDefinitions.givenDnm()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.Mobile_Test.StepDefinition.LoginStepDefinitions.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cusername\u003e\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.Mobile_Test.StepDefinition.LoginStepDefinitions.i_enter_my_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.Mobile_Test.StepDefinition.LoginStepDefinitions.i_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be logged in to my account",
+            "match": {
+              "location": "com.Mobile_Test.StepDefinition.LoginStepDefinitions.i_should_be_logged_in_to_my_account()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -31,9 +86,9 @@
         ]
       }
     ],
-    "name": "dnm",
-    "description": "",
-    "id": "dnm",
+    "name": "Login feature",
+    "description": "  As a user, I want to be able to log in to the application using my username and password.\n  So that I can access my account.",
+    "id": "login-feature",
     "keyword": "Feature",
     "uri": "file:src/test/java/resource/mobileFirst.feature",
     "tags": []
